@@ -20,4 +20,4 @@ UPDATE movies SET score = score + 0.5 WHERE genre IN ('Crime');
 
 UPDATE movies SET score = score - 2.0 WHERE is_3d IS TRUE;
 
-
+DELETE FROM movies WHERE title LIKE '%en%';
